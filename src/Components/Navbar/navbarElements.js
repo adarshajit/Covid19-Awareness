@@ -5,6 +5,7 @@ import { Link as LinkScroll } from "react-scroll";
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,6 +83,11 @@ export const NavLinks = styled(LinkScroll)`
   height: 100% auto;
   cursor: pointer;
 
+  &:hover {
+    color: #01bf71;
+    transition: 0.2s ease-in-out;
+  }
+
   &.active {
     border-bottom: 3px solid #01bf71;
   }
@@ -108,6 +114,12 @@ export const NavBtnLink = styled(LinkRouter)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+  }
 
   &.active {
     transition: all 0.2s ease-in-out;
