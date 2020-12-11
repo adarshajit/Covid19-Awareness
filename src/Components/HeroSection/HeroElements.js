@@ -35,6 +35,7 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  transform: translate(0%, 50%);
 `;
 
 export const HeroH1 = styled.h1`
