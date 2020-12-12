@@ -1,10 +1,14 @@
 import "./App.css";
-import { BrowserRouter as Router } from "react-router-dom";
-import Home from "./pages/home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import SiginPage from "./pages/SigninPage";
 function App() {
   return (
     <Router>
-      <Home />
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/signin" component={SiginPage} exact />
+      </Switch>
     </Router>
   );
 }

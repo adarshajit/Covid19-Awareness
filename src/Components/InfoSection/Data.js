@@ -35,10 +35,10 @@ export const HomeObjTwo = {
 };
 
 export const HomeObjThree = {
-  id: "signup",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  id: "help",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Join our Team",
   headline: "Creating an account is extremely easy",
   description:
@@ -47,7 +47,7 @@ export const HomeObjThree = {
   imgStart: false,
   img: require("../../images/svg-3.svg").default,
   alt: "Paper",
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
 };

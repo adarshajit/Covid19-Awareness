@@ -31,9 +31,12 @@ export const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks to="services">Services</NavLinks>
             </NavItem>
+            <NavItem>
+              <NavLinks to="help">Help</NavLinks>
+            </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/open">Open Account</NavBtnLink>
+            <NavBtnLink to="/signin">Sign In</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
