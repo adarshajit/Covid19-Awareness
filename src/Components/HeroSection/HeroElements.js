@@ -1,12 +1,12 @@
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 import styled from "styled-components";
+import covidImg from "../../images/covidImg.jpg";
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
   display: flex;
   justify-content: center;
   padding: 0 30px;
-  height: 800px;
+  height: 820px;
   position: relative;
   z-index: 1;
 
@@ -29,7 +29,10 @@ export const HeroBg = styled.div`
 export const ImageBg = styled.div`
   width: 100%;
   height: 100%;
-  background: #fff;
+  background-image: url(${covidImg});
+  background-size: cover;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
 `;
 
 export const HeroContent = styled.div`
@@ -44,7 +47,8 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   margin-top: 200px;
-  color: #000;
+  color: #fff;
+  text-shadow: 5px 5px #000;
   font-size: 48px;
   text-align: center;
 
@@ -58,7 +62,9 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
   margin-top: 24px;
-  color: #000;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 3px 3px #000;
   font-size: 24px;
   text-align: center;
   max-width: 600px;

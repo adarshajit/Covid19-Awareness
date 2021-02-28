@@ -25,8 +25,8 @@ const HeroSection = () => {
         <ImageBg />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Banking & Budgeting, made Simple</HeroH1>
-        <HeroP>Master your money with one easy app</HeroP>
+        <HeroH1>Coronavirus disease (COVID-19) pandemic</HeroH1>
+        <HeroP>Everything you need to know.</HeroP>
         <HeroBtnWrapper>
           <Button
             to="open"

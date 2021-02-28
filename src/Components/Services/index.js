@@ -15,28 +15,22 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <ServicesH1>Our Services</ServicesH1>
+      <ServicesH1>Explore</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1}></ServicesIcon>
-          <ServicesH2>Reduce Expenses</ServicesH2>
-          <ServicesP>
-            We help reduce your fees and increase your overall revenue.
-          </ServicesP>
+          <ServicesH2>Take the Quiz</ServicesH2>
+          <ServicesP>Assess your risk of getting COVID-19</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2}></ServicesIcon>
-          <ServicesH2>Reduce Expenses</ServicesH2>
-          <ServicesP>
-            We help reduce your fees and increase your overall revenue.
-          </ServicesP>
+          <ServicesH2>Posters</ServicesH2>
+          <ServicesP>Here are some posters to spread awareness.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}></ServicesIcon>
-          <ServicesH2>Reduce Expenses</ServicesH2>
-          <ServicesP>
-            We help reduce your fees and increase your overall revenue.
-          </ServicesP>
+          <ServicesH2>Masks</ServicesH2>
+          <ServicesP>All you need to know about masks.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

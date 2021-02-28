@@ -17,7 +17,7 @@ export const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Bankist</NavLogo>
+          <NavLogo to="/">COVID-19</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -29,14 +29,14 @@ export const Navbar = ({ toggle }) => {
               <NavLinks to="discover">Discover</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Services</NavLinks>
+              <NavLinks to="services">Explore</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="help">Help</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="/donate">Donate</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
