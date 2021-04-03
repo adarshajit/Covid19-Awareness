@@ -31,7 +31,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         </SidebarWrapper>
         <SidebarBtnWrap>
           <SidebarRoute to="/open" onClick={toggle}>
-            Open account
+            Donate
           </SidebarRoute>
         </SidebarBtnWrap>
       </SidebarContainer>

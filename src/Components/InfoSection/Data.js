@@ -26,7 +26,7 @@ export const HomeObjTwo = {
   description:
     "If COVID-19 is spreading in your community, stay safe by taking some simple precautions, such as physical distancing, wearing a mask, keeping rooms well ventilated, avoiding crowds, cleaning your hands, and coughing into a bent elbow or tissue. Check local advice where you live and work. Do it all!",
   buttonLabel: "Learn More",
-  imgStart: true,
+  imgStart: false,
   img: require("../../images/svg-2.svg").default,
   alt: "Piggybank",
   dark: false,
