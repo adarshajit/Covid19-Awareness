@@ -29,30 +29,29 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinksItems>
-              <FooterLinkTitle> About Us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
+              <FooterLinkTitle>What we do</FooterLinkTitle>
+              <FooterLink to="/signin">Countries</FooterLink>
+              <FooterLink to="/signin">FAQ</FooterLink>
+              <FooterLink to="/signin">Procurement</FooterLink>
               <FooterLink to="/signin">Terms of Service</FooterLink>
             </FooterLinksItems>
             <FooterLinksItems>
-              <FooterLinkTitle> About Us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
+              <FooterLinkTitle> Regions</FooterLinkTitle>
+              <FooterLink to="/signin">Africa</FooterLink>
+              <FooterLink to="/signin">America</FooterLink>
+              <FooterLink to="/signin">South-East Asia</FooterLink>
+              <FooterLink to="/signin">Europe</FooterLink>
+              <FooterLink to="/signin">Western Specific</FooterLink>
             </FooterLinksItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinksItems>
               <FooterLinkTitle> About Us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
+              <FooterLink to="/signin">Director-General</FooterLink>
+              <FooterLink to="/signin">World Health Assembly</FooterLink>
+              <FooterLink to="/signin">Executive Board</FooterLink>
+              <FooterLink to="/signin">Member States</FooterLink>
+              <FooterLink to="/signin">Employment</FooterLink>
             </FooterLinksItems>
             <FooterLinksItems>
               <FooterLinkTitle> Social Media</FooterLinkTitle>
@@ -65,9 +64,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">vertigo</SocialLogo>
+            <SocialLogo to="/">Covid-19</SocialLogo>
             <WebsiteRights>
-              vertigo c {new Date().getFullYear()} All Rights Reserved
+              {new Date().getFullYear()} All Rights Reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
